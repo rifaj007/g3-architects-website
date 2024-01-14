@@ -238,45 +238,66 @@ p {
 /* some fact section style */
 
 .some-fact-section {
-	padding-bottom: 180px;
+    padding-bottom: 180px;
 }
 
 .some-fact-container {
-	display: flex;
-	justify-content: space-around;
-	margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
 }
 
 .some-wrapper {
-	border-radius: 8px;
-	border: 1px solid #FF900E;
-	padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px;
 }
 
 .some-wrapper img {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .some-wrapper h2 {
-	color: #424242;
-	font-size: 45px;
-	font-weight: 600;
-	margin-bottom: 10px;
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .some-wrapper h5 {
-	color: #727272;
-	font-size: 20px;
-	font-weight: 600;
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* sponsor section style */
+
 .sponsor-section {
     padding-bottom: 130px;
 }
+
 .sponsor-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* copyright section styles */
+
+.footer-section {
+	padding-bottom: 200px;
+}
+
+.copy-right {
+	border-radius: 8px;
+	background: #FFF4E7;
+	padding: 37px 0;
+}
+
+.copyright-text {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
