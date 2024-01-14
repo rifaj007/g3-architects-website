@@ -209,19 +209,16 @@ p {
     position: relative;
 }
 
-.features-img img {
-	height: 100%;
-}
 
 .ten-years-experience {
-	border-radius: 8px;
-	background: #FF900E;
-	padding: 45px;
-	text-align: center;
-	display: inline-block;
-	position: absolute;
-	bottom: -75px;
-	left: -90px;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 45px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: -75px;
+    left: -90px;
 }
 
 .ten-years-experience h4 {
@@ -236,4 +233,39 @@ p {
     font-size: 25px;
     font-weight: 500;
     line-height: 40px;
+}
+
+/* some fact section style */
+
+.some-fact-section {
+	padding-bottom: 180px;
+}
+
+.some-fact-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+.some-wrapper {
+	border-radius: 8px;
+	border: 1px solid #FF900E;
+	padding: 40px;
+}
+
+.some-wrapper img {
+	margin-bottom: 10px;
+}
+
+.some-wrapper h2 {
+	color: #424242;
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.some-wrapper h5 {
+	color: #727272;
+	font-size: 20px;
+	font-weight: 600;
 }
