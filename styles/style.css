@@ -269,3 +269,14 @@ p {
 	font-size: 20px;
 	font-weight: 600;
 }
+
+/* sponsor section style */
+.sponsor-section {
+    padding-bottom: 130px;
+}
+.sponsor-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+}
