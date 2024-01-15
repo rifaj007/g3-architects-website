@@ -305,6 +305,215 @@ p {
 
 /* responsive media query */
 
+/* large device */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-section {
+        padding: 0 40px;
+    }
+
+    .banner-content {
+        padding: 115px 130px 50px 130px;
+    }
+
+    .team-section {
+        flex-direction: column-reverse;
+        padding: 85px 40px 130px 40px;
+    }
+    
+    .team-content {
+        padding-bottom: 75px;
+    }
+
+    .team-images-container {
+        padding-left: 0;
+        gap: 40px;
+    }
+
+    .features-section {
+        padding: 0 40px;
+        padding-bottom: 100px;
+    }
+
+    .features-content {
+        margin-right: 20px;
+        width: 70%;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+
+    .ten-years-experience {
+        bottom: 22.5%;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ten-years-experience h4 {
+        font-size: 55px;
+    }
+
+    .ten-years-experience span {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .some-fact-section {
+        padding: 0 40px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .some-fact-container {
+        gap: 25px;
+    }
+
+    .some-wrapper {
+        padding: 30px;
+    }
+
+    .sponsor-section {
+        padding: 0 40px;
+        padding-bottom: 101px;
+    }
+
+    .sponsor-container img {
+        width: 15%;
+    }
+
+    .footer-section {
+        padding-bottom: 100px;
+    }
+}
+
+/* tablet device */
+
+@media screen and (min-width:577px) and (max-width:991px) {
+
+    .header-section nav {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .header-menu {
+        margin-top: 25px;
+    }
+
+    .header-section {
+        padding-bottom: 0;
+    }
+
+    .banner-content {
+        padding: 90px 30px 70px 30px;
+    }
+
+    .banner-tittle {
+        font-size: 50px;
+    }
+
+    .primary-btn {
+        font-size: 17px;
+        padding: 17px 20px;
+    }
+
+    .team-section {
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+    }
+
+    .team-content {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .team-images-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .features-section {
+        flex-direction: column;
+        padding: 0 30px;
+        padding-bottom: 0;
+    }
+
+    .features-content {
+        margin-right: 0;
+        margin-bottom: 55px;
+    }
+
+    .features-img {
+        text-align: center;
+    }
+
+    .features-img img {
+        width: 75%;
+    }
+
+    .ten-years-experience {
+        padding: 30px 60px;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -82px;
+    }
+
+    .ten-years-experience h4 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .ten-years-experience span {
+        font-size: 20px;
+    }
+
+    .some-fact-section {
+        padding: 0 30px;
+        padding-bottom: 50px;
+    }
+
+    .some-fact-section .section-tittle {
+        text-align: center;
+    }
+
+    .some-fact-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .sponsor-section {
+        padding: 0 30px;
+        padding-bottom: 50px;
+    }
+
+    .sponsor-container img {
+        margin-bottom: 23px;
+        width: 15%;
+    }
+
+    .footer-section {
+        padding-bottom: 0;
+    }
+
+    .copy-right {
+        padding: 30px 0;
+    }
+
+    .copyright-text {
+        font-size: 18px;
+    }
+}
+
 /* mobile device */
 
 @media screen and (max-width:576px) {
@@ -428,129 +637,5 @@ p {
 
     .footer-section {
         padding-bottom: 0;
-    }
-}
-
-/* tablet device */
-
-@media screen and (min-width:576px) and (max-width:992px) {
-
-    .header-section nav {
-        flex-direction: column;
-        padding-top: 35px;
-    }
-
-    .header-menu {
-        margin-top: 25px;
-    }
-
-    .header-section {
-        padding-bottom: 0;
-    }
-
-    .banner-content {
-        padding: 90px 30px 70px 30px;
-    }
-
-    .banner-tittle {
-        font-size: 50px;
-    }
-
-    .primary-btn {
-        font-size: 17px;
-        padding: 17px 20px;
-    }
-
-    .team-section {
-        flex-direction: column-reverse;
-        padding: 50px 30px;
-    }
-
-    .team-content {
-        padding-bottom: 50px;
-        text-align: center;
-    }
-
-    .team-images-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        padding: 20px;
-    }
-
-    .features-section {
-        flex-direction: column;
-        padding: 0 30px;
-        padding-bottom: 0;
-    }
-
-    .features-content {
-        margin-right: 0;
-        margin-bottom: 55px;
-    }
-
-    .features-img {
-        text-align: center;
-    }
-
-    .features-img img {
-        width: 75%;
-    }
-
-    .ten-years-experience {
-        padding: 30px 60px;
-        position: relative;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        top: -82px;
-        /* bottom: -10%; */
-        /* top: -10%; */
-    }
-
-    .ten-years-experience h4 {
-        font-size: 45px;
-        line-height: 40px;
-    }
-
-    .ten-years-experience span {
-        font-size: 20px;
-    }
-
-    .some-fact-section {
-        padding: 0 30px;
-        padding-bottom: 50px;
-    }
-
-    .some-fact-section .section-tittle {
-        text-align: center;
-    }
-
-    .some-fact-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-        margin-top: 40px;
-    }
-
-    .sponsor-section {
-        padding: 0 30px;
-        padding-bottom: 50px;
-    }
-
-    .sponsor-container img {
-        margin-bottom: 23px;
-        width: 15%;
-    }
-
-    .footer-section {
-        padding-bottom: 0;
-    }
-
-    .copy-right {
-        padding: 30px 0;
-    }
-
-    .copyright-text {
-        font-size: 18px;
     }
 }
